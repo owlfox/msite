@@ -1,0 +1,16 @@
+---
+title: "{{title}}"
+description: "{{description}}"
+date: "{{date}}"
+author: "Michael Chen"
+tags: [
+
+]
+---
+
+My awesome article
+
+## TODO
+
+-   [ ] Replace image
+-   [ ] Write an awesome article

@@ -14,7 +14,8 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "now-build": "npm run build"
+    "now-build": "npm run build",
+    "gen": "plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.4",
@@ -37,5 +38,8 @@
     "styled-components": "^4.1.2",
     "typography": "^0.16.18",
     "typography-theme-bootstrap": "^0.16.18"
+  },
+  "devDependencies": {
+    "plop": "^2.4.0"
   }
 }
