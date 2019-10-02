@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tech Blog',
-    siteDescription: 'Tech Blog - A blog by Vimalraj Selvam',
-    authorName: 'Vimalraj Selvam'
+    title: 'It works!',
+    siteDescription: 'I am a linux user who has seen two kinds of penguin in the bush.',
+    authorName: 'Michael Chen'
   },
   plugins: [
     {
@@ -23,7 +23,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/blog-posts`
+        path: `${__dirname}/posts`
       }
     },
     {

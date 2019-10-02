@@ -161,20 +161,11 @@ export default ({ title, authorName }) => (
         </p>
       </div>
       <div>
+        {/* TODO: pull out the parameter */}
         <p>
           <StyledHref
-            href="https://www.linkedin.com/in/vimalraj-selvam/"
-            rel="noopener noreferrer"
+            href="https://github.owlfox.org"
             target="_blank"
-          >
-            <FaLinkedin /> <span>Linkedin</span>
-          </StyledHref>
-        </p>
-        <p>
-          <StyledHref
-            href="https://github.com/email2vimalraj"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <FaGithub /> <span>Github</span>
           </StyledHref>
