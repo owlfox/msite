@@ -6,7 +6,8 @@ import {
   FaUserSecret,
   FaLinkedin,
   FaGithub,
-  FaHashtag
+  FaHashtag,
+  FaGitlab
 } from 'react-icons/fa'
 
 const Sidebar = styled.div`
@@ -156,7 +157,7 @@ export default ({ title, authorName }) => (
         </p>
         <p>
           <StyledLink to="/tags">
-            <FaHashtag /> <span>Tags</span>
+            <FaHashtag /> <span>Blog Tags</span>
           </StyledLink>
         </p>
       </div>
@@ -170,7 +171,27 @@ export default ({ title, authorName }) => (
             <FaGithub /> <span>Github</span>
           </StyledHref>
         </p>
+
+        
+        <p>
+          <StyledHref
+            href="https://www.linkedin.com/in/owlfox/"
+            target="_blank"
+          >
+            <FaLinkedin /> <span>LinkedIn</span>
+          </StyledHref>
+        </p>
+
+        <p>
+          <StyledHref
+            href="https://gitlab.com/owlfox/"
+            target="_blank"
+          >
+            <FaGitlab /> <span>Gitlab</span>
+          </StyledHref>
+        </p>
       </div>
+      
     </MenuWrapper>
   </Sidebar>
 )
