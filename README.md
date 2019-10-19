@@ -9,3 +9,14 @@
 
 - Write your blog post in markdown format under `src/blog-posts`. Refer the existing markdown template for title and date.
 - Then run `npx gatsby develop` to load the page in your local machine. Usually loads in [http://localhost:8000](http://localhost:8000)
+
+
+
+### TODO
+- [ ]  PWA
+- [ ]  TOMATO TOOL
+- [ ]  Dictonary for local lookup
+- [ ]  mango db
+- [ ]  configurations from gatsby-config.js
+    - [ ] make it a theme
+- [ ] leetcode problems
